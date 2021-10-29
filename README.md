@@ -49,4 +49,4 @@ Nucleic Acids Research, 2014, gku1038, `https://doi.org/10.1093/nar/gku1038`
 
 arthurz@umich.edu or https://github.com/WeichenZhou
 
-or https://github.com/kalpita23
+kalpita.karan@gmail.com or https://github.com/kalpita23
