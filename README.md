@@ -24,18 +24,18 @@ Example dataset is bedfile 'E73' a 15-state epigenome data for DLPFC region. htt
 
 Requires: 
 ```
-	library(GenomicRanges)
-	library(rtracklayer)
-	library(VariantAnnotation)
-	library(MTseeker)
-	library(MTseekerData)
-	library(metablastr)
-	library(biomaRt)
+library(GenomicRanges)
+library(rtracklayer)
+library(VariantAnnotation)
+library(MTseeker)
+library(MTseekerData)
+library(metablastr)
+library(biomaRt)
 ```
 
 Run
 ```
-	/lib/R_script_epigenome.R
+/lib/R_script_epigenome.R
 ```
 
 ## 
