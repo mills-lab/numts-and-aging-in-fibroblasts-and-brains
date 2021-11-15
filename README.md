@@ -4,10 +4,11 @@
 
 Requires: 
 ```
+samtools
 exonerate/2.4.0 (for Dinumt) 
 vcftools/0.1.15 (for Dinumt) 
-bcftools/1.5
 Dinumt/0.0.23
+bcftools/1.5 (for delly)
 Delly2/0.8.5
 bowtie2/2.1.0 (for MELT) 
 MELT/2.1.4
@@ -79,16 +80,18 @@ Run
 /lib/R_script_epigenome.R
 ```
 
-## 
+## Identification of tissue/cell-line specific Numts
+
+This bash script will give you the VCFs for all tissue/cell-line specific Numts in Life-span model.
 
 Requires: 
 ```
-
+Inputs under the folder ../data/
 ```
 
 Run
 ```
-
+bash bash.specific.extraction.sh
 ```
 
 
