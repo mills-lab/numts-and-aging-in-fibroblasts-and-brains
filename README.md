@@ -2,6 +2,8 @@
 
 ## Variant calling pipelines
 
+These pipelines will call  non-reference Numts as well as non-reference SVs & MEIs from various packages. We will take hfb12-1_S1.bam for an example in the following command lines.
+
 Requires: 
 ```
 samtools
