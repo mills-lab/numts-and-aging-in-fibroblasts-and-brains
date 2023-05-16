@@ -56,6 +56,11 @@ java -jar ../MELTv2.1.4/MELT.jar Single -bamfile ${DATA}/hFB7-8_S1.bam -w ../hFB
 java -jar ../MELTv2.1.4/MELT.jar Single -bamfile ${DATA}/hFB7-8_S1.bam -w ../hFB7-8_S1.bam.melt.0205 -t ../MELTv2.1.4/me_refs/1KGP_Hg19/SVA_MELT.zip -h ${REF}/hg19.fa -n ../MELTv2.1.4/add_bed_files/1KGP_Hg19/hg19.genes.bed -c 21
 ```
 
+Sample bam for non-reference genetic variant calling:
+```
+Please check the folder callset/sample
+```
+
 ## Epigenetic analysis
 
 This script describes steps to use 'Roadmap epigenome states' dataset to find overlaps with Numt positions in the genome. The end goal is to predict chromatin states that Numts may overlap with in human genome.
